@@ -1,0 +1,5 @@
+{
+	"js/comment_for_workflow_action.min.js": [
+		"public/js/purchase_order.js"
+	]
+}

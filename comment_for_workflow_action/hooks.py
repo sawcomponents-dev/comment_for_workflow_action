@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/comment_for_workflow_action/css/comment_for_workflow_action.css"
-# app_include_js = "/assets/comment_for_workflow_action/js/comment_for_workflow_action.js"
+app_include_js = "/assets/comment_for_workflow_action/js/purchase_order.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/comment_for_workflow_action/css/comment_for_workflow_action.css"
