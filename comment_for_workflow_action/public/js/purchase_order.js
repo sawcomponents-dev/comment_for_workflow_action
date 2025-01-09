@@ -64,7 +64,7 @@ frappe.ui.form.on("Purchase Order", {
                     },
                 });
                 d.show();
-            } else if (frm.selected_workflow_action.trim().toLowerCase() == __("Change from Purchase Needed").toLowerCase()) {
+            } else if (frm.selected_workflow_action.trim().toLowerCase() == __("Request change from Purchase").toLowerCase()) {
                 var d = new frappe.ui.Dialog({
                     title: __("What needs to be changed?"),
                     fields: [
@@ -95,7 +95,7 @@ frappe.ui.form.on("Purchase Order", {
                     },
                 });
                 d.show();
-            } else if (frm.selected_workflow_action.trim().toLowerCase() == __("Change Form Orderer Needed").toLowerCase()) {
+            } else if (frm.selected_workflow_action.trim().toLowerCase() == __("Request change from Orderer").toLowerCase()) {
                 var d = new frappe.ui.Dialog({
                     title: __("What needs to be changed?"),
                     fields: [
